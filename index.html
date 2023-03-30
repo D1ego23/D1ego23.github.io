@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>GymBros</title>
+	<link rel="shortcut icon" href="img/icono.png">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!--Barra de navegacion + modo oscuro-->
+	<header>
+		<nav class ="navbar">
+			<div class="contenedor">
+				<img class = "logo" src="img/logod.png" width="10%" height="10%">
+				<div class="topnav">
+					<div class="search-container">
+						<input type="text" placeholder="Search.." name="search">
+						<button type="submit"><i class="fa fa-search"></i></button>
+					  </div>
+				  </div>
+   				<button class="switch" id="switch">
+   					<span><i class="fas fa-sun"></i></span>
+   					<span><i class="fas fa-moon"></i></span>
+   				</button>
+			</div>
+		</nav>
+	</header>
+	<nav class ="navbar1">
+		<div class="contenedor">
+			<a href="index.html">Inicio</a>
+			<a href="categorias.html">Categorias</a>
+			<a href="marcas.html">Marcas</a>
+			<a href="asesorias.html">Asesorias</a>
+		</div>
+	</nav>
+	<!--Final de navegacion + modo oscuro-->
+
+	<!--Slider de imagenes-->
+	<!-- Slideshow container -->
+<div class="slideshow-container">
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 4</div>
+	  <img src="img/slider/e32021.png" style="width:100%">
+	  <div class="text">Oferta 1</div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 4</div>
+	  <img src="img/slider/gs.png" style="width:100%">
+	  <div class="text">Oferta 2</div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 4</div>
+	  <img src="img/slider/cotl.png" style="width:100%">
+	  <div class="text">Oferta 3</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">4 / 4</div>
+		<img src="img/slider/nier.png" style="width:100%">
+		<div class="text">Oferta 4</div>
+	  </div>
+  
+	<!-- Next and previous buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+	<!--Final de slider de imagenes-->
+	<h1><center>Bienvenidos a GymBros! Aqui encontraras todos los suplementos que necesites para seguir con tus entrenamientos!</center></h1>
+	
+	
+	<div class="med-related-prod-wrap" id="med-related-prod-wrapper">
+		<h2 class="related-prod-heading">Productos Destacados!</h2>
+		<div class="med-rel-prod-slider-wrapper">
+			<div class="med-rel-prod-slider carousel-content">
+	
+	<div class="med-product-card">
+		<div class="related-prod-wrapper">
+			<img src="img/ProductoPlaceHolder.png" alt="" class="related-prod-img">
+		</div>
+		<div class="related-prod-detail">
+			<p class="rel-med-name">Producto 1</p>
+			<p class="rel-no-of-tab">Texto de Producto</p>
+			<p class="rel-company-name">$200</p>
+			<button class="button button1" onclick="window.location.href = 'compra.html';" >Comprar</button>
+		</div>
+	</div>
+	
+	<div class="med-product-card">
+		<div class="related-prod-wrapper">
+			<img src="img/ProductoPlaceHolder.png" alt="" class="related-prod-img">
+		</div>
+		<div class="related-prod-detail">
+			<p class="rel-med-name">Producto 2</p>
+			<p class="rel-no-of-tab">Texto de Producto</p>
+			<p class="rel-company-name">$390</p>
+			<button class="button button1" onclick="window.location.href = 'compra.html';" >Comprar</button>
+		</div>
+	</div>
+	
+	<div class="med-product-card">
+		<div class="related-prod-wrapper">
+			<img src="img/ProductoPlaceHolder.png" alt="" class="related-prod-img">
+		</div>
+		<div class="related-prod-detail">
+			<p class="rel-med-name">Producto 3</p>
+			<p class="rel-no-of-tab">Texto de Producto</p>
+			<p class="rel-company-name">$190</p>
+			<button class="button button1" onclick="window.location.href = 'compra.html';" >Comprar</button>
+		</div>
+	</div>
+	
+	<div class="med-product-card">
+		<div class="related-prod-wrapper">
+			<img src="img/ProductoPlaceHolder.png" alt="" class="related-prod-img">
+		</div>
+		<div class="related-prod-detail">
+			<p class="rel-med-name">Producto 4</p>
+			<p class="rel-no-of-tab">Texto de Producto</p>
+			<p class="rel-company-name">$210</p>
+			<button class="button button1" onclick="window.location.href = 'compra.html';" >Comprar</button>
+		</div>
+	</div>
+	
+	<div class="med-product-card">
+		<div class="related-prod-wrapper">
+			<img src="img/ProductoPlaceHolder.png" alt="" class="related-prod-img">
+		</div>
+		<div class="related-prod-detail">
+			<p class="rel-med-name">Producto 5</p>
+			<p class="rel-no-of-tab">Texto de Producto</p>
+			<p class="rel-company-name">$360</p>
+			<button class="button button1" onclick="window.location.href = 'compra.html';" >Comprar</button>
+		</div>
+	</div>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
